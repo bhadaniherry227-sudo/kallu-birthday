@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#17121d">
+<title>Happy Birthday, Kallu ♡</title>
+<style>
+:root{--bg:#17121d;--pink:#ffb6c9;--cream:#fff1e6;--muted:#c9bdca}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 15% 10%,#49243f,transparent 32%),radial-gradient(circle at 90% 55%,#28294d,transparent 30%),var(--bg);color:var(--cream);font-family:system-ui,-apple-system,sans-serif}
+section{padding:60px 0}.wrap{width:min(900px,92%);margin:auto}.hero{min-height:100svh;display:grid;place-items:center;text-align:center;padding:45px 0}.kicker{color:var(--pink);text-transform:uppercase;letter-spacing:.2em;font-size:.75rem;font-weight:800}h1{font-size:clamp(3.3rem,12vw,7rem);line-height:.92;letter-spacing:-.07em}h1 span{color:var(--pink);font-family:Georgia,serif;font-style:italic;font-weight:400}h2{font-size:clamp(2rem,7vw,3rem);letter-spacing:-.04em}p{line-height:1.75;color:var(--muted)}.sub{max-width:530px;margin:0 auto 25px}.pill{display:inline-block;border:1px solid #ffffff2c;border-radius:999px;padding:8px 14px;color:var(--muted);font-size:.8rem}.btn{border:0;border-radius:999px;padding:14px 22px;background:var(--pink);color:#271522;font-weight:900;cursor:pointer}.center{text-align:center}
+.photos{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:28px}.photo{background:#ffffff0a;border:1px solid #ffffff20;padding:10px;border-radius:22px}.photo:nth-child(2){margin-top:25px}.photo img{display:block;width:100%;height:350px;object-fit:cover;border-radius:15px}.photo figcaption{padding:12px 5px;color:var(--muted);font-size:.85rem}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.card{background:#ffffff0a;border:1px solid #ffffff18;padding:20px;border-radius:18px}.card .emoji{font-size:1.7rem}.card p{font-size:.9rem}
+.balloons{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:550px;margin:28px auto}.balloon{background:none;border:0;color:var(--cream);cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:8px;min-height:125px}.bubble{width:78px;height:95px;border-radius:50% 50% 46% 46%;display:grid;place-items:center;margin:auto;color:#241521;font-size:1.5rem;box-shadow:inset -9px -10px 18px #0002;position:relative;transition:transform .18s,opacity .18s}.bubble:after{content:"";position:absolute;bottom:-8px;border-left:6px solid transparent;border-right:6px solid transparent;border-top:10px solid var(--tail)}.balloon:nth-child(1) .bubble{--tail:#ff9bb7;background:#ff9bb7}.balloon:nth-child(2) .bubble{--tail:#b8a5ff;background:#b8a5ff}.balloon:nth-child(3) .bubble{--tail:#ffc887;background:#ffc887}.balloon:nth-child(4) .bubble{--tail:#8fd8c8;background:#8fd8c8}.balloon:nth-child(5) .bubble{--tail:#ffb3a7;background:#ffb3a7}.balloon:nth-child(6) .bubble{--tail:#d6c5f7;background:#d6c5f7}.balloon small{color:var(--muted)}.balloon.popped .bubble{animation:pop .28s forwards}@keyframes pop{to{transform:scale(1.45);opacity:0}}.message{min-height:72px;max-width:560px;margin:20px auto;padding:20px;border-radius:18px;background:#ffffff0a;border:1px dashed #ffffff38;line-height:1.7}.message:empty:before{content:"Tap a balloon to reveal a message 👆";color:var(--muted)}.final{display:none}.final.show{display:block;animation:fade .8s}@keyframes fade{from{opacity:0;transform:translateY(15px)}to{opacity:1}}footer{text-align:center;padding:30px;color:#9d8d9f;font-size:.82rem}.confetti{position:fixed;top:-15px;z-index:20;animation:fall 3s linear forwards;pointer-events:none}@keyframes fall{to{transform:translateY(110vh) rotate(700deg);opacity:0}}
+@media(max-width:600px){.photos{grid-template-columns:1fr}.photo:nth-child(2){margin-top:0}.photo img{height:360px}.cards{grid-template-columns:1fr}.balloons{gap:8px}.bubble{width:66px;height:82px}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap"><div style="font-size:2rem">♡ ✨ ♡</div><span class="pill">A very unserious website for a very important person</span><p class="kicker" style="margin-top:28px">Today is all about you</p><h1>Happy Birthday,<br><span>Kallu.</span></h1><p class="sub">Harsh, this little corner of the internet is dedicated to our memories, our nonsense, and the friendship I’m genuinely grateful for. 💗</p><button class="btn" id="memoriesBtn" type="button">Enter the memories ↓</button></div></header>
+<main>
+<section id="memories"><div class="wrap center"><p class="kicker">The evidence folder 📸</p><h2>Proof we’re iconic.</h2><p>Two photos. A thousand inside jokes. And a few questionable decisions.</p><div class="photos">
+<figure class="photo"><img src="./memory-red.jpeg" alt="Two friends sharing a fun memory"><figcaption>🔥 Main-character energy. Zero explanation needed.</figcaption></figure>
+<figure class="photo"><img src="./memory-cafe.jpeg" alt="Two friends posing at a cafe"><figcaption>🤍 Another memory for the collection.</figcaption></figure>
+</div></div></section>
+<section><div class="wrap center"><p class="kicker">A tiny public roast</p><h2>Things about Kallu™</h2><p>Officially unverified facts, emotionally accurate though.</p><div class="cards"><article class="card"><div class="emoji">😂</div><h3>Certified nuisance</h3><p>Annoying enough to deserve a mute button. Important enough that I’d never press it.</p></article><article class="card"><div class="emoji">🫡</div><h3>Ride-or-die energy</h3><p>Somehow part clown, part therapist, part partner-in-crime.</p></article><article class="card"><div class="emoji">💗</div><h3>Actually a good human</h3><p>Under all the jokes, you’re someone I’m lucky to have in my life.</p></article></div></div></section>
+<section><div class="wrap center"><p class="kicker">Unlock your birthday messages</p><h2>Pop the balloons 🎈</h2><p>Tap each balloon. The roast-to-emotion ratio is carefully calibrated.</p>
+<div class="balloons" id="balloons">
+<button class="balloon" type="button" data-index="0" aria-label="Pop balloon 1"><span class="bubble">1</span><small>Tap me</small></button>
+<button class="balloon" type="button" data-index="1" aria-label="Pop balloon 2"><span class="bubble">2</span><small>Tap me</small></button>
+<button class="balloon" type="button" data-index="2" aria-label="Pop balloon 3"><span class="bubble">3</span><small>Tap me</small></button>
+<button class="balloon" type="button" data-index="3" aria-label="Pop balloon 4"><span class="bubble">4</span><small>Tap me</small></button>
+<button class="balloon" type="button" data-index="4" aria-label="Pop balloon 5"><span class="bubble">5</span><small>Tap me</small></button>
+<button class="balloon" type="button" data-index="5" aria-label="Pop balloon 6"><span class="bubble">6</span><small>Tap me</small></button>
+</div><div class="message" id="message" aria-live="polite"></div>
+<div class="final" id="final"><div style="font-size:3rem">🎂💗🎉</div><h2>Happy Birthday, Harsh!</h2><p>You deserve a year full of good people, peaceful days, big wins, and reasons to laugh until your stomach hurts. Thanks for being part of my story. Whatever life looks like later, I hope we keep collecting ridiculous memories and showing up for each other.</p><p style="color:var(--pink);font-family:Georgia,serif;font-style:italic;font-size:1.2rem">Stay the same kind of crazy, Kallu. You’re one of a kind. ♡</p><button class="btn" id="celebrateBtn" type="button">Celebrate again 🎊</button></div>
+</div></section></main><footer>Made with friendship, chaos & a suspicious amount of affection ♡</footer>
+<script>
+(function(){
+ const msgs=[
+ "First of all, happy birthday, Kallu 😂 May your brain cells finally start working together this year.",
+ "You’re one of the few people who can turn a normal day into a story we’ll laugh about forever.",
+ "Thanks for the jokes, random talks, and memories that would sound fake if we explained them to anyone else.",
+ "Real talk: I hope this year gives you confidence when you doubt yourself, peace when life gets loud, and people who appreciate you properly.",
+ "Even when we’re busy or life changes, I hope you always know you’ve got a friend in me. No dramatic speech required. 🤝",
+ "Final message unlocked 💗 Happy Birthday, Harsh (Kallu)! Keep being your weird, funny, wonderful self. I’m lucky to call you my friend."
+ ];
+ const popped=new Set();
+ document.getElementById('memoriesBtn').addEventListener('click',()=>document.getElementById('memories').scrollIntoView({behavior:'smooth'}));
+ document.querySelectorAll('.balloon').forEach(btn=>btn.addEventListener('click',()=>{
+   const i=Number(btn.dataset.index); if(popped.has(i))return;
+   popped.add(i); btn.classList.add('popped'); btn.querySelector('small').textContent='Popped!'; btn.disabled=true;
+   document.getElementById('message').textContent=msgs[i];
+   if(popped.size===6)setTimeout(()=>{document.getElementById('final').classList.add('show');document.getElementById('final').scrollIntoView({behavior:'smooth',block:'center'});celebrate()},400);
+ }));
+ function celebrate(){const colors=['#ffb6c9','#c9b8ff','#fff1e6','#ffc887','#8fd8c8'];for(let i=0;i<60;i++){const e=document.createElement('span');e.className='confetti';e.textContent=['✦','♥','✧','•'][Math.floor(Math.random()*4)];e.style.left=Math.random()*100+'vw';e.style.color=colors[Math.floor(Math.random()*colors.length)];e.style.fontSize=(12+Math.random()*18)+'px';e.style.animationDuration=(2+Math.random()*2)+'s';document.body.appendChild(e);setTimeout(()=>e.remove(),4500)}}
+ document.getElementById('celebrateBtn').addEventListener('click',celebrate);
+})();
+</script></body></html>
